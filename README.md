@@ -1,24 +1,26 @@
 # Install PySpark in pythonanywhere
-Because free user [pythonanywhere](https://www.pythonanywhere.com) have limited space. So its bit tricky to install PySpark to [pythonanywhere](https://www.pythonanywhere.com). In this Repository i will tell you how to install PySpark in [pythonanywhere](https://www.pythonanywhere.com) step by step.
-I use PySpark Version 3.1.2 in this repository
-Reminder: not every Machine Learning project use Spark, so install it if you need it 
+Because free user [pythonanywhere](https://www.pythonanywhere.com) have limited space. <br>
+So its bit tricky to install PySpark to [pythonanywhere](https://www.pythonanywhere.com). <br>
+In this repository i will tell you how to install PySpark in [pythonanywhere](https://www.pythonanywhere.com) step by step. <br>
+I use PySpark Version 3.1.2 in this repository <br>
+Reminder: not every Machine Learning project use Spark, so install it if you need it <br>
 ![about](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/spark.jpg)
  
 ## Installation
 ### Prerequisites
 What you need to prepare:
 * Have alredy make web app [pythonanywhere](https://www.pythonanywhere.com)
-here my scrrenshot of my web app environtment
+here my scrrenshot of my web app environtment <br>
 ![webenvirontment](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/pre.jpg)
   
 ### Install PySpark
-1. Go to Files section, then create new directory named spark-3.1.2-bin-hadoop3.2
+1. Go to Files section, then create new directory named spark-3.1.2-bin-hadoop3.2 <br>
 ![ss1](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss1.jpg)
 
-2. Back to main directories, then create new directory named tar 
+2. Back to main directories, then create new directory named tar <br>  
 ![ss2](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss2.jpg)
 
-3. Open new tab, go to Consoles section, and open bash
+3. Open new tab, go to Consoles section, and open bash <br>
 ![ss3](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss3.jpg)
 
 4. Clone this repo into your tar directories by following this command
@@ -45,7 +47,7 @@ here my scrrenshot of my web app environtment
    ```
 ![ss8](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss8.jpg)
 
-9. Untar the file to jars directories
+9. Untar the file to jars directories <br>
  ```sh
    tar -xf /home/yourusername/tar/jars_a_i.tar -C /home/yourusername/spark-3.1.2-bin-hadoop3.2/jars
    ```
@@ -60,7 +62,7 @@ here my scrrenshot of my web app environtment
    ```
 ![ss11](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss11.jpg) 
 
-12. Untar the file to jars directories
+12. Untar the file to jars directories <br>
  ```sh
    tar -xf /home/yourusername/tar/jars_j_r.tar -C /home/yourusername/spark-3.1.2-bin-hadoop3.2/jars
    ```
@@ -75,7 +77,7 @@ here my scrrenshot of my web app environtment
    ```
 ![ss14](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss14.jpg) 
 
-15. Untar the file to jars directories
+15. Untar the file to jars directories <br>
  ```sh
    tar -xf /home/yourusername/tar/jars_s_z.tar -C /home/yourusername/spark-3.1.2-bin-hadoop3.2/jars
    ```
@@ -106,7 +108,7 @@ Dont forget to save file after edit it
  ```sh
    source ~/.bashrc.1
    ```
-5. Run pyspark to check if it success
+5. Run pyspark to check if it success <br>
  ```sh
    pyspark
    ```
@@ -118,10 +120,10 @@ Dont forget to save file after edit it
    (you can skip this if you follow my repo [EasyDeployFlask](https://github.com/f3rry12/EasyDeployFlask) because this repo include this file)
 ![ss22](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss22.jpg) 
 
-2. Edit findspark.py
+2. Edit findspark.py <br>
 ![ss23](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss23.jpg) 
 
-3. Make sure to import findspark in.py file if you use spark
+3. Make sure to import findspark in.py file if you use spark <br>
 ![ss24](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/ss24.jpg) 
 
 ## Acknowledgements
