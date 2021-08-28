@@ -1,7 +1,7 @@
 # Install PySpark in pythonanywhere
-Because free user [pythonanywhere](https://www.pythonanywhere.com) have limited space. <br>
-So its bit tricky to install PySpark to [pythonanywhere](https://www.pythonanywhere.com). <br>
-In this repository i will tell you how to install PySpark in [pythonanywhere](https://www.pythonanywhere.com) step by step. <br>
+Because free user [pythonanywhere](https://www.pythonanywhere.com) have limited space.
+So its bit tricky to install PySpark to pythonanywhere. <br>
+In this repository i will tell you how to install PySpark in pythonanywhere step by step. <br>
 I use PySpark Version 3.1.2 in this repository <br>
 Reminder: not every Machine Learning project use Spark, so install it if you need it <br>
 ![about](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/spark.jpg)
@@ -9,7 +9,8 @@ Reminder: not every Machine Learning project use Spark, so install it if you nee
 ## Installation
 ### Prerequisites
 What you need to prepare:
-* Have alredy make web app [pythonanywhere](https://www.pythonanywhere.com)
+* Have already make web app [pythonanywhere](https://www.pythonanywhere.com)
+* Make sure you still have plenty free space
 here my scrrenshot of my web app environtment <br>
 ![webenvirontment](https://github.com/f3rry12/install-pyspark-split1/blob/main/readMeAsset/pre.jpg)
   
